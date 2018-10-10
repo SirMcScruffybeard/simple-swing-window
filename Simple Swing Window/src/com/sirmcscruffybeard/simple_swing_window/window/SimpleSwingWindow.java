@@ -32,6 +32,8 @@ public class SimpleSwingWindow extends JFrame {
 		
 		this.add(this.prepCloseButton(), BorderLayout.SOUTH);
 		
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		
 		this.setTitle(this.TITLE);
 		
 		this.setSize(WIDTH, HEIGHT);
